@@ -40,17 +40,56 @@ Collect the main dataset of **21 hand landmarks** across letters **A to Z** .
 Inside the `ASL_Recognition` folder, create a new file named `collect_data.py`.
 
 ### Run the Collection Program
-
-Open **Anaconda Prompt**, activate your environment, navigate to the project directory, and run the script:
-
 ```bash
 python collect_data.py
 ```
 
-### Record Coordinate Samples
+## 4. Train Random Forest Model
 
-1. Show the ASL sign for letter **A** in front of the camera.
-2. Press the **A** key on your keyboard to record **20 frames** and save **one labelled sample**.
-3. Slightly change your hand position or angle, then press **A** again to collect another sample.
-4. Repeat this process across the letters **A to Z** to build your dataset.
-5. Press 'q' to quit the program.
+### Create the Training Script
+
+1. Inside the `ASL_Recognition` folder, create a new file named `train_model.py`.
+
+### Run the Training Program
+```bash
+python train_model.py
+```
+
+## 5. Test Trained Model
+
+### Create the Testing Script
+
+1. Inside the `ASL_Recognition` folder, create a new file named `test_model.py`.
+
+### Run the Model Test
+```bash
+python test_model.py
+```
+## 6. Train LSTM + CTC for Word Detection
+
+Train a sequence model using **LSTM** and **CTC (Connectionist Temporal Classification)** to recognize multi-letter handshape sequences and assemble words.
+
+### Install Dependencies
+```bash
+pip install opencv-python mediapipe numpy pandas tensorflow scikit-learn
+```
+### Collect Word Sequence Data
+Create `collect_words.py` inside `ASL_Recognition` and run:
+
+```bash
+python collect_words.py
+```
+
+### Train the LSTM + CTC Model
+Create `train_lstm.py` inside `ASL_Recognition` and run:
+
+```bash
+python train_lstm.py
+```
+
+### Predict Word Sequences
+Create `predit_sequence.py` inside `ASL_Recognition` and run:
+
+```bash
+python predit_sequence.py
+```
