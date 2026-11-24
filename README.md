@@ -1,6 +1,7 @@
 # ReadTheVoice_ASL_Detection
 
-1. ModelPipe Setup
+**1. ModelPipe Setup**
+   
 Open an empty "ASL_Recognition" file.
 Download "hand_landmarker.task" and move it into "ASL_Recognition" file
 Open anaconda prompt to
