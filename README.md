@@ -29,6 +29,8 @@ pip install mediapipe opencv-python numpy pandas scikit-learn joblib
 Open **VS Code**, select the `ASL_Recognition` folder, and create a new file named `test_hand.py`. 
 
 
+
+
 ## 3. Collecting the Dataset (21 Hand Landmarks)
 
 Collect the main dataset of **21 hand landmarks** across letters **A to Z** .
@@ -42,8 +44,6 @@ Inside the `ASL_Recognition` folder, create a new file named `collect_data.py`.
 Open **Anaconda Prompt**, activate your environment, navigate to the project directory, and run the script:
 
 ```bash
-conda activate asl_project
-cd /d "C:\Users\szeyi\OneDrive\Desktop\ASL_Recognition"
 python collect_data.py
 ```
 
