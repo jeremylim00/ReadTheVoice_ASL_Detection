@@ -1,7 +1,8 @@
 # ReadTheVoice_ASL_Detection
 ## 1. Clone the repository 
 ```bash
-https://github.com/jeremylim00/ReadTheVoice_ASL_Detection.git
+git clone https://github.com/jeremylim00/ReadTheVoice_ASL_Detection.git
+cd ReadTheVoice_ASL_Detection
 ``` 
 ## 2. MediaPipe Setup
 
