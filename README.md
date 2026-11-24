@@ -24,9 +24,10 @@ conda activate asl_project
 pip install mediapipe opencv-python numpy pandas scikit-learn joblib
 ```
 
-### Create Project File
-
-Open **VS Code**, select the `ASL_Recognition` folder, and create a new file named `test_hand.py`. 
+### Run the MediaPipe Hand Landmarker Test
+```bash
+python test_hand.py
+```
 
 
 
