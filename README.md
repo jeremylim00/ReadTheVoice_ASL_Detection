@@ -40,6 +40,7 @@ python test_hand.py
 ## 3. Collecting the Dataset (21 Hand Landmarks)
 
 Collect the main dataset of **21 hand landmarks** across letters **A to Z** .
+I recorded total 200 datasets per alphabet.
 
 ### Create the Data Collection Script
 
