@@ -97,7 +97,7 @@ python train_lstm.py
 Create `predict_sequence.py` inside `ASL_Recognition` and run:
 This is to test our trained sequences from the recorded videos.
 ```bash
-python predit_sequence.py
+python predict_sequence.py <path_to_recorded_file.npy>
 ```
 ## Predict Word Sequences in Real-time
 Create `live_word_detection.py` inside `ASL_Recognition` and run:
