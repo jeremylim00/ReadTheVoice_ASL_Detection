@@ -93,7 +93,7 @@ python train_lstm.py
 ```
 
 ### Predict Word Sequences
-Create `predit_sequence.py` inside `ASL_Recognition` and run:
+Create `predict_sequence.py` inside `ASL_Recognition` and run:
 This is to test our trained sequences from the recorded videos.
 ```bash
 python predit_sequence.py
