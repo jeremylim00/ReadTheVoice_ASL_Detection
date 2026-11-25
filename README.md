@@ -85,7 +85,7 @@ Create `collect_words.py` inside `ASL_Recognition` and run:
 python collect_words.py
 ```
 
-### Train the LSTM + CTC Model
+### Train the BiLSTM + CTC Model
 Create `train_lstm.py` inside `ASL_Recognition` and run:
 
 ```bash
@@ -94,7 +94,12 @@ python train_lstm.py
 
 ### Predict Word Sequences
 Create `predit_sequence.py` inside `ASL_Recognition` and run:
-
+This is to test our trained sequences from the recorded videos.
 ```bash
 python predit_sequence.py
+```
+## Predict Word Sequences in Real-time
+Create `live_word_detection.py` inside `ASL_Recognition` and run:
+```bash
+python live_word_detection.py
 ```
