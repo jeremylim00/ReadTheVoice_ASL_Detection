@@ -2,13 +2,14 @@
 ## 1. Clone the repository 
 ```bash
 git clone https://github.com/jeremylim00/ReadTheVoice_ASL_Detection.git
+
 cd ReadTheVoice_ASL_Detection
 ``` 
 ## 2. MediaPipe Setup
 
-1. Create an empty folder named `ASL_Recognition`.
-2. Download `hand_landmarker.task` and move it inside the `ASL_Recognition` folder.
-3. Open **Anaconda Prompt** and run the following commands:
+1. Clone the repository.
+2. Open the ReadTheVoice_ASL_Detection folder.
+3. The hand_landmarker.task file is already included in the repository root directory.
 
 ### Create Python Environment
 
